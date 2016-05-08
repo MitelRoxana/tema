@@ -9,8 +9,6 @@ public class Client {
 	private String SSN;
 	private String email;
 	private String phoneNumber;
-
-	
 	
 	public Client(int id, String name, String surname, String password, String sSN, String email, String phoneNumber) {
 		this.id = id;
@@ -20,6 +18,10 @@ public class Client {
 		SSN = sSN;
 		this.email = email;
 		this.phoneNumber = phoneNumber;
+	}
+	public Client addClient(String id){
+		return null;
+		
 	}
 
 	public int getId() {
